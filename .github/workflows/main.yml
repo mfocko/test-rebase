@@ -3,7 +3,7 @@ on: [push]
 jobs:
   rebase_check:
     runs-on: ubuntu-latest
-    name: 
+    name: Rebase check
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
